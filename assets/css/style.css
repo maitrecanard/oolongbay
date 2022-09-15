@@ -1,0 +1,38 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+}
+header {
+    background-image: url('../../assets/pictures/fond2.jpg');
+    width: 100%;
+    height: 100vh;
+    offset: inherit;
+    padding-left: 2em;
+    background-repeat: no-repeat;
+    background-position: top center;
+    background-size: cover;
+    background-attachment: fixed;
+    position: relative;
+}  
+
+header h1 {
+    color: #fff;
+    font-size: 6em;
+    font-family: 'Qwitcher Grypen', cursive;
+}
+
+header span {
+    color: #fff;
+    font-size: 4em;
+    font-family: 'Qwitcher Grypen', cursive;
+}
+
+.bottom {
+    position: absolute;
+    bottom: 25px;
+    left: 50%;
+}
+
+iframe {
+    color:  white;
+}
