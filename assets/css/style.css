@@ -2,6 +2,11 @@
     margin: 0;
     box-sizing: border-box;
 }
+@media (max-width:768px) {
+   header  {
+    background-image: ('https://images.unsplash.com/photo-1571505463102-48bae91c6028?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=687&q=80');
+   }
+}
 header {
     background-image: url('../../assets/pictures/fond2.jpg');
     width: 100%;
